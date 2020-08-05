@@ -10,16 +10,24 @@ h1{
     padding: 30px;
 }
 
-strong{
-    color: red;
-}
-
 h2{
     text-align: center;
 }
 
+p{
+    text-align:center;
+}
+
+strong{
+    color: red;
+}
+
 .beneficios{
     background-color: white;
+}
+
+.missao{
+    font-size:20px;
 }
 
 ul{
