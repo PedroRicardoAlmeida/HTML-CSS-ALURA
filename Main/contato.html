@@ -22,7 +22,33 @@
 			</div>
         </header>
         <main>
-            teste
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao">
+
+				<label for="email">E-mail</label>
+				<input type="text" id="email" class="input-padrao">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone" class="input-padrao">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+				<div>
+				<p>Como prefere o nosso contato?</p>
+
+				<label for="radio-email"></label><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
+
+				<label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">
+					Telefone</label>
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="Whatsapp" id="radio-whatsapp"> Whatsapp</label>
+				</div>
+
+				<label for="check"><input type="checkbox" id="check" class="checkbox">Gostaria de receber nossas novidades por E-mail?</label></label>
+				<input type="submit">
+			</form>
         </main>
         <footer>
 			<img src="logo-branco.png">
